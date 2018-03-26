@@ -1,0 +1,9 @@
+c:\users\n16543b\documents\visual studio 2015\Projects\Chap5DinnerParty\Chap5DinnerParty\bin\Debug\Chap5DinnerParty.exe.config
+c:\users\n16543b\documents\visual studio 2015\Projects\Chap5DinnerParty\Chap5DinnerParty\bin\Debug\Chap5DinnerParty.exe
+c:\users\n16543b\documents\visual studio 2015\Projects\Chap5DinnerParty\Chap5DinnerParty\bin\Debug\Chap5DinnerParty.pdb
+c:\users\n16543b\documents\visual studio 2015\Projects\Chap5DinnerParty\Chap5DinnerParty\obj\Debug\Chap5DinnerParty.csprojResolveAssemblyReference.cache
+c:\users\n16543b\documents\visual studio 2015\Projects\Chap5DinnerParty\Chap5DinnerParty\obj\Debug\Chap5DinnerParty.Form1.resources
+c:\users\n16543b\documents\visual studio 2015\Projects\Chap5DinnerParty\Chap5DinnerParty\obj\Debug\Chap5DinnerParty.Properties.Resources.resources
+c:\users\n16543b\documents\visual studio 2015\Projects\Chap5DinnerParty\Chap5DinnerParty\obj\Debug\Chap5DinnerParty.csproj.GenerateResource.Cache
+c:\users\n16543b\documents\visual studio 2015\Projects\Chap5DinnerParty\Chap5DinnerParty\obj\Debug\Chap5DinnerParty.exe
+c:\users\n16543b\documents\visual studio 2015\Projects\Chap5DinnerParty\Chap5DinnerParty\obj\Debug\Chap5DinnerParty.pdb
