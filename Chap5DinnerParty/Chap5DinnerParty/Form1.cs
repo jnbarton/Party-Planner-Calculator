@@ -17,17 +17,21 @@ namespace Chap5DinnerParty
         public Form1()
         {
             InitializeComponent();
-            dinnerParty = new DinnerParty() { NumberOfPeople = 5 };
-            dinnerParty.SetHealthyOption(healthyBox.Checked);
-            dinnerParty.CalculateCostOfDecorations(fancyBox.Checked);
+            dinnerParty = new DinnerParty((int)numericUpDown.Value, healthyBox.Checked, fancyBox.Checked);
             DisplayDinnerPartyCost();
 
         }
 
-        private void DisplayDinnerPartyCost()
+        private void fancyBox_CheckedChanged(object sender, EventArgs e)
         {
-            decimal Cost = dinnerParty.CalculateCost(healthyBox.Checked);
-            costLabel.Text = Cost.ToString("c");
+            dinnerParty.FancyDecorations = fancyBox.Checked;
+            DisplayDinnerPartyCost();
+        }
+
+        private void healthyBox_CheckedChanged(object sender, EventArgs e)
+        {
+            dinnerParty.HealthyOption = healthyBox.Checked;
+            DisplayDinnerPartyCost();
         }
 
         private void numericUpDown_ValueChanged(object sender, EventArgs e)
@@ -36,16 +40,10 @@ namespace Chap5DinnerParty
             DisplayDinnerPartyCost();
         }
 
-        private void fancyBox_CheckedChanged(object sender, EventArgs e)
+        private void DisplayDinnerPartyCost()
         {
-            dinnerParty.CalculateCostOfDecorations(fancyBox.Checked);
-            DisplayDinnerPartyCost();
-        }
-
-        private void healthyBox_CheckedChanged(object sender, EventArgs e)
-        {
-            dinnerParty.SetHealthyOption(healthyBox.Checked);
-            DisplayDinnerPartyCost();
+            decimal Cost = dinnerParty.Cost;
+            costLabel.Text = Cost.ToString("c");
         }
     }
 }

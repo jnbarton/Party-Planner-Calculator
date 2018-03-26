@@ -101,6 +101,7 @@
             // costLabel
             // 
             this.costLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.costLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.costLabel.Location = new System.Drawing.Point(56, 119);
             this.costLabel.Name = "costLabel";
             this.costLabel.Size = new System.Drawing.Size(99, 28);
